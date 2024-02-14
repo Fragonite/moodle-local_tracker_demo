@@ -16,7 +16,6 @@
 
 namespace local_tracker_demo;
 
-use core\event\course_created;
 use core\event\course_restored;
 
 /**
@@ -27,22 +26,12 @@ use core\event\course_restored;
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class observer {
-
-    /**
-     * Fire up a logic after the course is created.
-     *
-     * @param \core\event\course_created $event Event.
-     */
-    public static function handle_course_created(course_created $event): void {
-        get_fast_modinfo($event->courseid);
-    }
-
     /**
      * Fire up a logic after the course is restored.
      *
      * @param \core\event\course_restored $event Event.
      */
     public static function handle_course_restored(course_restored $event): void {
-        // get_fast_modinfo($event->objectid);
+        get_fast_modinfo($event->objectid);
     }
 }
