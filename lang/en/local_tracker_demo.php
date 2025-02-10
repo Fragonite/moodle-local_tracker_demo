@@ -17,7 +17,7 @@
 /**
  * Plugin strings are defined here.
  *
- * @package     local_activityintro
+ * @package     local_tracker_demo
  * @category    string
  * @copyright   2024 Catalyst IT Australia
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
