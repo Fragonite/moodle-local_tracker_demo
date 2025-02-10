@@ -14,7 +14,7 @@ This is a dummy Moodle plugin to demonstrate tracker issues and fixes.
 
 The plugin can be also installed by putting the contents of this directory to
 
-    {your/moodle/dirroot}/local/activityintro
+    {your/moodle/dirroot}/local/tracker_demo
 
 Afterwards, log in to your Moodle site as an admin and go to _Site administration >
 Notifications_ to complete the installation.
